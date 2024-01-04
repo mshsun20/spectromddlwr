@@ -1,0 +1,34 @@
+
+.navmenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.navmenu a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.hdr {
+  color: #008080;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.hds {
+  color: #808000;
+  font-size: 2rem;
+  font-weight: 900;
+}
+table, th, td {
+  padding: 0.1rem 0.3rem;
+  border: 0.12rem solid #d1a734;
+  border-collapse: collapse;
+}
+table thead th {
+  background-color: #f5b6b6;
+  color:#7a0b52;
+  font-size: 1rem;
+}
+table tbody td {
+  font-size: 1rem;
+}
