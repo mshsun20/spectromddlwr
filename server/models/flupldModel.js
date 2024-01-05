@@ -10,12 +10,15 @@ const FlupldSchema = mongoose.Schema({
         type: String,
         required: true,
         default: 'F'
-    },
-    created_on: {
-        type: String,
-        required: true,
-        default: Date.now()
     }
+    // created_on: {
+    //     type: String,
+    //     required: true,
+    //     default: Date.now()
+    // }
+},
+{
+    timestamp: true
 })
 
 module.exports = mongoose.model('filelist', FlupldSchema)
