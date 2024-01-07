@@ -26,7 +26,7 @@ const Uplddta = () => {
             console.log(data)
 
             selectedfile = e.target.files[0]
-            console.log(selectedfile)
+            // console.log(selectedfile)
             // if (selectedfile.name === "20230825.csv") {
             //     console.log("yes")
             // }
